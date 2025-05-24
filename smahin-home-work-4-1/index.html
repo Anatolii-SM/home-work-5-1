@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- тег; -->
+  <h1>Тег h1, вага 1</h1>
+  <!-- клас; -->
+  <div class="header"> Клас .header, вага 10</div>
+  <!-- id; -->
+  <div id="home"> Індефікатор #home, вага 100</div>
+  <!-- атрибут; -->
+  <div title="home-work"> Атрибут [title"home-work"], вага 10</div>
+  <!-- вкладені селектори; -->
+  <div>
+    <span>Вкладений селектор span, вага 2</span>
+  </div>
+  <!-- дочірні селектори; -->
+  <div class="parent">
+    <p>Дочірний селектор тег p, вкладених у div, з класом parent, вага 11</p>
+  </div>
+  <!-- послідовність селекторів; -->
+  <p class="highlight">
+    <em>Послідовність селекторів</em>
+    <a href="#"> p class="main" em + a, вага 13</a>
+  </p>
+  <!-- різні комбінації селекторів тег/клас/атрибут/id/вкладеності. -->
+  <!-- тег+атрибут -->
+  <p title="page"> Комбінація тега р з атрибутом [title="page"], вес 11</p>
+  <!-- тег+клас+id -->
+  <h1 id="world" class="main">Комбінація тега h1 з индефікатором #world, та класом main, вага 111</h1>
+  <!-- тег+клас+вкладені селектори  -->
+  <div>
+    <h2 class="footer">Комбінаця тега h2 з класом footer, та вкладений у div, вага 12</h2>
+  </div>
+</body>
+
+</html>
