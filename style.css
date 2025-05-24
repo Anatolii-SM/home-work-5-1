@@ -1,0 +1,8 @@
+html {
+  font-size: 28px;
+  color: black;
+  background-color: #f0f0f0; /* Светло-серый фон */
+  font-family: Arial, sans-serif; /* Основной шрифт */
+  margin: 0; /* Убираем внешние отступы */
+  padding: 0; /* Убираем внутренние отступы */
+}
