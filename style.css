@@ -1,20 +1,57 @@
 html {
-  font-size: 28px;
-  color: black;
-  background-color: #daebee; 
+  font-size: 16px;
+  color: rgb(223, 18, 141);
+  background-color: #f0f0f0; 
   font-family: Arial, sans-serif; 
-  margin: 0; 
-  padding: 0; 
+  margin: 5px; 
+  padding: 5px; 
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #09caf15c;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(10, 10, 10, 0.267);
+}
+
 h1 {
-  font-size: 2.5rem; 
-  color: #a02222; 
-  text-align: center; 
-  margin-top: 20px; 
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: rgb(244, 6, 149);
+  font-weight: 700;
+  letter-spacing: 1px;
 }
-p {
-  font-size: 1.5rem; 
-  color: #24b956; 
-  text-align: center; 
-  margin: 20px; 
+
+p, .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.list-container {
+  list-style: decimal inside;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.list-container li {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  color: #333;
+  line-height: 1.8;
 }
