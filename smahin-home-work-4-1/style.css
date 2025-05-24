@@ -1,0 +1,37 @@
+
+
+h1 {
+  background-color: rgb(120, 120, 226);
+  color: yellow;
+}
+.header {
+  background-color: orange;
+  color: green;
+}
+#home{
+  background-color: rgb(180, 120, 237);
+}
+[title="home-work"] {
+  background-color: brown;
+}
+div span {
+  background-color: aquamarine;
+}
+.parent > p {
+  background-color: rgb(0, 255, 132);
+}
+p.highlight em + a {
+  color: crimson;
+  font-weight: bold;
+  text-decoration: underline;
+  background: yellow;
+}
+p[title="page"] {
+  background-color: rgb(234, 195, 87);
+}
+h1#world.main {
+  background-color: orangered;
+}
+div h2.footer {
+  background-color: aqua;
+}
